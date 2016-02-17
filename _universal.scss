@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  display: block;
+  font-family: sans-serif;
+}
+
+body {
+  display: block;
+  min-width: 1020px;
+  word-wrap: break-word;
+  margin: 0;
+  font: 13px / 1.4 Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: #333;
+  background-color: #fff;
+}

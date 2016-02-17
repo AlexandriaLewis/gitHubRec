@@ -1,0 +1,164 @@
+* {
+  box-sizing: border-box; }
+
+html {
+  display: block;
+  font-family: sans-serif; }
+
+body {
+  display: block;
+  min-width: 1020px;
+  word-wrap: break-word;
+  margin: 0;
+  font: 13px / 1.4 Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: #333;
+  background-color: #fff; }
+
+header {
+  height: 49px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #e5e5e5; }
+  header div.container {
+    width: 980px;
+    margin-right: auto;
+    margin-left: auto; }
+  header span {
+    float: left;
+    margin-right: 10px;
+    margin-left: -2px;
+    color: #333;
+    white-space: nowrap; }
+
+header nav {
+  list-style: none; }
+  header nav .octicon {
+    display: inline-block;
+    fill: currentColor;
+    margin-top: 1px;
+    text-align: center; }
+  header nav .octicon-plus {
+    margin-right: 1px; }
+  header nav form {
+    display: inline-block;
+    margin-top: 0em;
+    position: relative;
+    float: left;
+    width: 360px;
+    margin-right: 10px; }
+  header nav label {
+    position: relative;
+    display: block;
+    width: 100%;
+    min-height: 26px;
+    padding: 2px;
+    font-size: 12px;
+    line-height: 17px; }
+  header nav .formControl {
+    color: #333;
+    vertical-align: middle;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: right 8px center;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    outline: none;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075); }
+  header nav input {
+    display: inline-block;
+    width: 250px;
+    min-height: 22px;
+    padding: 3px 5px;
+    font-size: 12px;
+    line-height: 16px;
+    background: none;
+    border: 0;
+    box-shadow: none;
+    color: #333;
+    vertical-align: middle;
+    border-radius: 3px;
+    outline: none; }
+  header nav ul {
+    display: inline-block;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0; }
+  header nav ul.right {
+    float: right;
+    display: inline-block; }
+  header nav ul.right .octicon {
+    width: 16px;
+    margin-top: 1px;
+    margin-right: 1px;
+    text-align: center;
+    display: inline-block; }
+  header nav ul.right .dropdown-caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    vertical-align: -2px;
+    content: "";
+    border: 4px solid;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent; }
+  header nav li {
+    margin: auto 0;
+    display: inline-block;
+    list-style: none;
+    text-align: -webkit-match-parent; }
+    header nav li p {
+      margin: auto 0;
+      display: block;
+      padding: 4px 8px;
+      font-size: 13px;
+      font-weight: bold;
+      line-height: 20px;
+      color: #333; }
+    header nav li .user-nav .octicon-bell {
+      display: inline-block;
+      vertical-align: bottom;
+      margin-right: 1px; }
+    header nav li .dropdown {
+      position: relative; }
+  header nav li.header-nav {
+    display: inline-block;
+    height: 28px;
+    padding: 4px 8px;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 20px;
+    color: #333; }
+  header nav li.header-nav .avatar {
+    float: left;
+    margin-right: 5px;
+    display: inline-block;
+    overflow: hidden;
+    line-height: 1;
+    vertical-align: middle;
+    border-radius: 3px; }
+  header nav div {
+    display: inline-block; }
+    header nav div .headButts {
+      display: inline-block;
+      height: 28px; }
+    header nav div .tooltipped {
+      position: relative; }
+    header nav div .navLink {
+      display: block;
+      padding: 4px 8px;
+      font-size: 13px;
+      font-weight: bold;
+      line-height: 20px;
+      color: #333; }
+    header nav div span.dropdown-caret {
+      display: inline-block;
+      width: 0;
+      height: 0;
+      vertical-align: -2px;
+      content: "";
+      border: 4px solid;
+      border-right-color: transparent;
+      border-bottom-color: transparent;
+      border-left-color: transparent; }
