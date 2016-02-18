@@ -1,92 +1,120 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta charset="utf-8">
     <title>gitHubRec</title>
-    <link rel="stylesheet" href="main.css" media="screen" title="no title" charset="utf-8">
-    <link rel="stylesheet" href="bower_components/octicons/octicons/octicons.css">
-  </head>
-  <body>
-
-
-
+    <link rel="stylesheet" src=
+    "//normalize-css.googlecode.com/svn/trunk/normalize.css">
+    <link charset="utf-8" href="main.css" media="screen" rel="stylesheet"
+    title="no title">
+    <link href="bower_components/octicons/octicons/octicons.css" rel=
+    "stylesheet">
+</head>
+<body>
     <header>
-      <div class="container">
-      <nav>
-        <div class="left" style="float: left;">
-          <span class="octicon octicon-mark-github" style="font-size: 26px;"></span>
-          <form>
-            <label class="formControl">
-            <input type="text" name="search" placeholder="Search GitHub">
-            </label>
-          </form>
-          <ul class="headLeft">
-            <li><p>Pull requests</p></li>
-            <li><p>Issues</p></li>
-            <li><p>Gist</p></li>
-          </ul>
+        <div class="container">
+            <nav>
+                <div class="left" style="float: left;">
+                    <span class="octicon octicon-mark-github" style=
+                    "font-size: 26px;"></span>
+                    <form>
+                        <label class="formControl"><input name="search"
+                        placeholder="Search GitHub" type="text"></label>
+                    </form>
+                    <ul class="headLeft">
+                        <li>
+                            <p>Pull requests</p>
+                        </li>
+                        <li>
+                            <p>Issues</p>
+                        </li>
+                        <li>
+                            <p>Gist</p>
+                        </li>
+                    </ul>
+                </div>
+                <ul class="right">
+                    <li class="header-nav tooltipped"><span class=
+                    "octicon octicon-bell"></span></li>
+                    <li class="header-nav dropdown tooltipped"><span class=
+                    "octicon octicon-plus left"></span> <span class=
+                    "dropdown-caret"></span></li>
+                    <li class="header-nav dropdown tooltipped"><img alt=
+                    "@AlexandriaLewis" class="avatar" height="20" src=
+                    "https://avatars1.githubusercontent.com/u/15950907?v=3&amp;s=40"
+                    width="20"> <span class="dropdown-caret"></span></li>
+                </ul>
+            </nav>
         </div>
-
-
-        <ul class="right">
-          <li class="header-nav tooltipped"><span class="octicon octicon-bell"></span></li>
-          <li class="header-nav dropdown tooltipped">
-            <span class="octicon octicon-plus left"></span>
-            <span class="dropdown-caret"></span>
-          </li>
-          <li class="header-nav dropdown tooltipped">
-            <img alt="@AlexandriaLewis" class="avatar" height="20" src="https://avatars1.githubusercontent.com/u/15950907?v=3&amp;s=40" width="20">
-            <span class="dropdown-caret"></span>
-          </li>
-        </ul>
-      </nav>
-      </div>
     </header>
-
-
-
     <div class="content container">
-
-      <div class="collumns">
-
-        <aside class="collumn one-fourth vcard">
-          <a href="#" class="vcard-avatar d-block tooltipped"></a>
-          <h1 class="vcard-names my-3">
-            <div class="vcard-fullname"></div>
-            <div class="vcard-username"></div>
-          </h1>
-          <ul class="vcard-details border-top border-gray-light py-3"></ul>
-          <div class="vcard-stats border-top border-bottom border-gray-light mb-3 py-3"></div>
-          <div class="clearfix"></div>
-        </aside>
-
-
-        <section class="collumn three-fourths dont-hide">
-          <div class="tabnav">
-          </div>
-        </section>
-
-
-        <section class="collumn three-fourths hide-this"></section>
-
-      </div>
-
+        <div class="collumns">
+            <aside class="collumn one-fourth vcard">
+                <a class="vcard-avatar d-block tooltipped" href="#"></a>
+                <h1 class="vcard-names my-3"></h1>
+                <ul class="vcard-detail border-top border-gray-light py-3">
+                </ul>
+                <div class=
+                "vcard-stats border-top border-bottom border-gray-light mb-3 py-3">
+                <div class='vcard-stat one'></div>
+                    <div class='vcard-stat two'></div>
+                    <div class='vcard-stat three'></div>
+                </div>
+                <div class="clearfix"></div>
+            </aside>
+            <section class="collumn three-fourths">
+                <div class="secNav">
+                    <div class="secNavTabs contTab">
+                        <span class="octicon octicon-diff-added"></span>
+                        <span>Contributions</span>
+                    </div><a href="#" rel="repoList">
+                    <div class="secNavTabs reposTab">
+                        <span class="octicon octicon-repo"></span>
+                        <span>Repositories</span>
+                    </div></a> <a href="#" rel="news">
+                    <div class="secNavTabs pubActTab active">
+                        <span class="octicon octicon-rss"></span> <span>Public
+                        Activity</span>
+                    </div></a>
+                    <div class="secNavTabs edit">
+                        <button name="button"><span class=
+                        "octicon octicon-pencil"></span> Edit profile</button>
+                    </div>
+                </div>
+                <div class="tabs">
+                    <div class="repoList">
+                        <div class="searchNav">
+                            <form action="">
+                                <label class="formControl"><input name="search"
+                                placeholder="Find a repository..." type="text">
+                                <button name="button"><label class=
+                                "formControl">Search</label> <button name=
+                                "button"><span class=
+                                "octicon octicon-repo"></span>
+                                New</button></button></label>
+                            </form>
+                        </div>
+                        <div class="repo-list-item"></div>
+                    </div>
+                    <div class="news public_news"></div>
+                </div>
+            </section>
+        </div>
     </div>
-
-
-
-    <footer class="container">
-
-
-    </footer>
-
-
-
-  <script type="text/javascript" src="bower_components/underscore/underscore.js"></script>
-  <script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
-  <script type="text/javascript" src="github.js"></script>
-  <script type="text/javascript" src="repos.js"></script>
-  <script type="text/javascript" src="publicAct.js"></script>
-  <script type="text/javascript" src="main.js"></script>
-  </body>
+    <footer class="container"></footer>
+    <script src="bower_components/underscore/underscore.js" type=
+    "text/javascript">
+    </script>
+    <script src="bower_components/jquery/dist/jquery.js" type=
+    "text/javascript">
+    </script>
+    <script src="github.js" type="text/javascript">
+    </script>
+    <script src="repos.js" type="text/javascript">
+    </script>
+    <script src="publicAct.js" type="text/javascript">
+    </script>
+    <script src="main.js" type="text/javascript">
+    </script>
+</body>
 </html>

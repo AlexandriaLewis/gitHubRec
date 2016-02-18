@@ -1,7 +1,24 @@
 aside {
   width: 25%;
 
+  .py-1 {
+      padding-top: 3px !important;
+      padding-bottom: 3px !important;
+  }
 
+  .my-3 {
+    margin-top: 12px !important;
+    margin-bottom: 12px !important;
+  }
+
+  .py-3 {
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
+  }
+
+  .text-muted {
+    color: #767676;
+  }
   .one-fourth {
 
   }
@@ -23,22 +40,72 @@ aside {
     font-size: 30px;
     margin: 0.67em 0;
     div.vcard-fullname {
-
+      font-size: 26px;
+      line-height: 30px;
+    }
+    div.vcard-username {
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 24px;
+      color: #666;
     }
   }
-  .my-3 {
-    margin-top: 12px !important;
-    margin-bottom: 12px !important;
+
+  .vcard-detail {
+    list-style: none;
+    padding-left: 0px;
+    font-size: 14px;
   }
 
-  .vcard-details {
-    list-style: none;
-    padding-left: 24px;
-    font-size: 14px;
+  ul {
+    .vcard-detail {
+      list-style: none;
+      padding-left: 0px;
+      font-size: 14px;
+      span.octicon {
+        color: #999;
+      }
+    }
+  }
+
+  .css-truncate.css-truncate-target, .css-truncate .css-truncate-target {
+      display: inline-block;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      vertical-align: top;
+  }
+
+  // ul.py-3 {
+  //   padding-top: 12px !important;
+  //   padding-bottom: 0px !important;
+  // }
+
+  li {
+    width: 100%;
   }
 
   .vcard-stats {
     text-align: center;
+    height: 70px;
+  }
+  .vcard-stat {
+    float: left;
+    width: 33.333%;
+    font-size: 11px;
+    text-transform: capitalize;
+  }
+  .vcard-stat-count {
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 1;
+  }
+
+  .clearfix {
+    h3 {
+      font-size: 16px;
+    }
   }
 
 
