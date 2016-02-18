@@ -1,0 +1,45 @@
+aside {
+  width: 25%;
+
+
+  .one-fourth {
+
+  }
+  .d-block {
+    display: block !important;
+  }
+  .avatar {
+    display: inline-block;
+    overflow: hidden;
+    line-height: 1;
+    vertical-align: middle;
+    border-radius: 3px;
+  }
+  .rounded-2 {
+    border-radius: 6px !important;
+  }
+  .vcard-names {
+    line-height: 1;
+    font-size: 30px;
+    margin: 0.67em 0;
+    div.vcard-fullname {
+
+    }
+  }
+  .my-3 {
+    margin-top: 12px !important;
+    margin-bottom: 12px !important;
+  }
+
+  .vcard-details {
+    list-style: none;
+    padding-left: 24px;
+    font-size: 14px;
+  }
+
+  .vcard-stats {
+    text-align: center;
+  }
+
+
+}
